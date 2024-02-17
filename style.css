@@ -1,0 +1,40 @@
+
+.titleimg {
+    float: right;
+    width: 35%;
+    height: 50%;
+  }
+
+  .arrowsimg {
+    clear: right;
+    float: right;
+    width: 10%;
+    height: 50%;
+  }
+
+  /* Title by https://www.textstudio.com/ */
+
+  .container {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .container:hover {
+    cursor: pointer;
+  }
+
+  .white {
+    height: 100px;
+    width: 100px;
+    background-color: #b5bbf0;
+    border: solid white 2px;
+  }
+
+  .black {
+    height: 100px;
+    width: 100px;
+    background-color: #9063b5;
+    border: solid white 2px;
+  }
